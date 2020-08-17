@@ -8,3 +8,7 @@
 5. Enjoy
 # Contributions
 All kind of contibutions are welcome
+# Note 
+This tool is based on python language
+This tool uses path of the html elements to interact with browser, so the app's behaviour is subject to change according to the changes in official website of instagram
+I will try my best to maintain this repo
