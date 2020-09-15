@@ -4,7 +4,7 @@ from selenium.webdriver.common.keys import Keys
 from bs4 import BeautifulSoup
 import configparser as cfg
 # initialize the webdrivers
-driver = webdriver.Chrome()
+driver = webdriver.Chrome('./chromedriver.exe')
 driver.get('https://www.instagram.com/')
 # Get username and password from config.cfg
 config = cfg.ConfigParser()
