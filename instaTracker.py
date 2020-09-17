@@ -57,8 +57,9 @@ while scroll < 100:
     scroll += 1
 
 fList = driver.find_elements_by_xpath("//div[@class='isgrP']//li")
-print("fList len is {}".format(len(fList)))
-print("ended")
+# print("fList len is {}".format(len(fList)))
+# print("ended")
+
 # Save the records in file
 f = open("new.txt", 'w', encoding='utf-8')
 i = 0
