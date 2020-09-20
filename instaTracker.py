@@ -39,8 +39,8 @@ profileHtml = driver.page_source
 soup = BeautifulSoup(profileHtml, "html.parser")
 for e in soup.find_all(class_="g47SY"):
     max = e.get_text()
-    print('max = '+str(max))
-    print("temp = "+str(temp))
+    # print('max = '+str(max))
+    # print("temp = "+str(temp))
     if(int(max) >= int(temp)):
         temp = max
 # Open Followers Pop Up
