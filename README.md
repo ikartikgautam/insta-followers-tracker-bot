@@ -7,7 +7,7 @@
 4. create a file config.cfg with 'username' and 'password' of your insta profile stored under [creds] section in this file
 5. run python 'instaTracker.py'
 6. Enjoy
-# Contributions
+# Contributions to the project
 All kind of contibutions are welcome
 # Note 
 This tool is based on python language
